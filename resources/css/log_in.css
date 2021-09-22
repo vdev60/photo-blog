@@ -1,0 +1,46 @@
+.log-in-container input[type=text], input[type=password],input[type=email]{
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+  }
+
+.log-in-container button{
+    background-color: #888888;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .log-in-container form{
+    max-width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.log-in-container input[type=checkbox]{
+    height: 15px;
+    width: 15px;
+    line-height: 0;
+}
+.log-in-container h1{
+text-align: center;
+}
+
+.log-in-container a{
+    text-align: right;
+}
+
+

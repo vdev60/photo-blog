@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    font-size: 18px; 
+    font-family: "Libre Baskerville", Georgia, serif;      
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%) inset, 0 -1px 0 rgb(0 0 0 / 10%) inset;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li:hover{
+    box-shadow: 0 4px 0 rgb(0 0 0 / 40%) inset;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+nav{
+    position: unset;
+
+}
+
+nav ul{
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+}
+
+
+nav li:hover{
+    background-color: rgb(0 0 0 / 40%);
+    box-shadow: 0 0px 0 rgb(0 0 0 / 40%) inset;
+    color: white;
+}
+}
+
+.content-articles{
+  display: flex;
+  padding: 30px;
+
+}
+
+.container-article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-article .read-more{
+    text-decoration: none;
+    color: gray;
+}
+
+.container-article{
+    float: left;
+    width: 70%;
+    text-align: justify;
+}
+
+.article{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.article h2{
+    text-align: center;
+}
+
+.categories {
+    width: 30%;
+    margin-left: 10px;
+    padding: 10px;
+    color: gray;
+    font-size: 15px;
+
+}
+
+.categories input[type=text], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+header {
+  padding: 30px;
+  text-align: left;
+  color: black;
+}
+
+header a{
+    font-size: 35px;
+}
+
+footer {
+  background-color: #777;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+
+.top-banner-social{
+    float: right;
+    line-height: 30px;
+
+}
+.top-banner-social a{
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;    
+    margin-left: 15px;
+}
+
+
+.fa-instagram {
+  background: #ac4783;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.article-meta ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: gray;
+}
+
+.article-meta ul{
+    padding-right: 10px;
+
+}
+
